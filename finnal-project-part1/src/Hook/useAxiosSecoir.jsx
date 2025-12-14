@@ -37,7 +37,7 @@ const useAxiosSecoir = () => {
       axiosShire.interceptors.request.eject(requesId);
       axiosShire.interceptors.response.eject(resonSError);
     };
-  }, [user?.accessToken, userLogOut]);
+  }, [user?.accessToken, userLogOut, naviget]);
   return axiosShire;
 };
 
